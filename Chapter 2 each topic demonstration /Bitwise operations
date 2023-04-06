@@ -1,0 +1,18 @@
+//bitwise operation
+#include<iostream>
+using namespace std;
+int main(){
+ int M=8;
+ int N=15;
+ int Q;
+ Q=M|N;
+ cout<<Q<<endl;
+ Q=M&N;
+ cout<<Q<<endl;
+ Q=M^N;
+ cout<<Q<<endl; 
+ Q=M>>1;
+ cout<<Q<<endl;   
+ Q=M<<1;
+ cout<<Q<<endl;    
+}
