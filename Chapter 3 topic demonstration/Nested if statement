@@ -1,0 +1,19 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int a =2,y=6;
+	if (a>=y){
+		if ((a,y)==0)//evenly divisible
+		{
+		if (a==y)
+		cout <<"They are the same value:\n";
+		else 
+		cout <<"They are evebly divisible:\n";
+	}
+	else 
+	cout <<"They are not evebly divisible:\n";
+}
+else
+   cout<<"Hey! The second one is larger!\n";
+return 0;
+}
