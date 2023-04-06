@@ -1,0 +1,12 @@
+//relational operation 
+#include<iostream>
+using namespace std;
+int main(){
+ int M=7,N=8;
+ cout<<(M==N)<<endl;
+  cout<<(M!=N)<<endl;
+  cout<<(M<N)<<endl;
+  cout<<(M<=N)<<endl;
+  cout<<(M>N)<<endl;
+  cout<<(M>=N)<<endl;
+}
