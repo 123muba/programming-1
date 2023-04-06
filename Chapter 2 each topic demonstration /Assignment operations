@@ -1,0 +1,12 @@
+//assignment operation
+#include<iostream>
+using namespace std;
+int main(){
+ int x=20,y=2;
+ x+=y;
+ x-=y;
+ x*=y;
+ x/=y;
+ x%=y;
+ cout <<x<<endl<<y<<endl;
+}
