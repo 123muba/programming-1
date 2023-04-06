@@ -1,0 +1,8 @@
+//increment or decrement operations
+#include<iostream>
+using namespace std;
+int main(){
+ int x, a=6,b=9,c=7,d=8;
+ x=++a + b++ - c-- * --d;
+ cout <<x<<endl;
+}
