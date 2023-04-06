@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+#define PI 3.14149
+int main(){
+	float radius,area,circum;
+	 cout<<"\n \n find the area and circumference of any circle:";
+	 cout<<"---------------------------------------------------\n";
+	 cout<<"Input the radius(1/2 of diameter) of a circle:";
+	 cin >> radius;
+	 circum = 2*PI*radius;
+	 area = PI*(radius*radius);
+	 cout<<"The area of the circle is:"<< area<<endl;
+	 cout<<"The circumference of the circle is :"<<circum<<endl;
+	 cout<<endl;
+	 return 0;
+}
