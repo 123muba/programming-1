@@ -1,0 +1,14 @@
+//simple type conversion 
+#include<iostream>
+using namespace std;
+int main(){
+ //Implicity type conversion
+ char intToyellow=68;
+ int charToyellow='D';
+ cout<<intToyellow<<endl<<charToyellow<<endl;
+ //explicity type conversion
+ int x=5;
+ int y=3;
+ float z=x/y;
+ cout<<z<<endl;
+}
