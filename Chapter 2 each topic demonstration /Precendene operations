@@ -1,0 +1,14 @@
+//precendence operations
+#include<iostream>
+using namespace std;
+int main(){
+ int a=20;
+ int b=15;
+ int c=6;
+ int f=7;
+ int m=30;
+ int n=50;
+ int d;
+ d=(a+b)*c-n/f%m;
+ cout<<d<<endl;
+}
