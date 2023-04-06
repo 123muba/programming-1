@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main(){
+	int a=15;
+	if(a>30){
+		cout<<"a is greater than 30 "<<endl;
+	}
+	else {
+		 	cout<<"a is not greater than 30 "<<endl;
+	}
+		cout<<"value of a is:"<<a<<endl;
+return 0;
+}
