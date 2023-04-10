@@ -1,0 +1,16 @@
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+using namespace std;
+int main()
+{
+char m1[50],m2[11];
+strcpy(m1,"Mubarek");
+strcpy(m2,"Endris");
+strcat(m1,m2);
+cout<<m1<<endl;
+cout<<m2 <<endl;
+    return 0;
+}
+
+    
