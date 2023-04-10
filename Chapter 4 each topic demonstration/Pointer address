@@ -1,0 +1,13 @@
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+using namespace std;
+int main()
+{
+int m=20;
+int z=15;
+int a=5;
+cout<<&m<<endl;
+cout<<&z<<endl;
+cout<<&a<<endl;
+}
