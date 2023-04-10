@@ -1,0 +1,13 @@
+#include <iostream>
+#include <cstdio>
+#include <cstring>
+using namespace std;
+int main()
+{
+int x=2,y=5,z=10;
+int m=3,n=6,p=20;
+cout<<strcmp("xyz","mnp")<<endl;
+cout<<strcmp("mnp","xyz")<<endl;
+cout<<strncmp("mnp","xyz",2)<<endl;
+cout<<strcmp("np","mp")<<endl;
+}
