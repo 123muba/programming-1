@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+float average;
+    int number,sum=0;
+    while(number <10){
+   cout<<"Enter the number"<<endl;
+    cin>>number;
+    sum=sum+number;
+    }
+    average =sum /10.0;
+    cout<<"The average is="<<average<<endl;
+    return 0;
+}
