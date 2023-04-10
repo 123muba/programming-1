@@ -1,0 +1,29 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+   int number ;
+ cout<<"Enter the number :"<<endl;
+cin>>number ;
+switch (number){
+ case 1: 
+cout<<"September" <<endl;
+break ;
+case 2:
+cout<<"October" <<endl;
+break ;
+case 3:
+cout<<"November" <<endl;
+break ;
+case 4:
+cout<<"December" <<endl;
+break ;
+case 5:
+cout<<"January" <<endl;
+break ;
+default :
+cout<<"doesn't match " <<endl;
+}
+    return 0;
+}
