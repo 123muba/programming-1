@@ -1,0 +1,15 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int counter =0;
+    do{
+    cout<<"jimma "<<endl;
+    if(counter==6){
+    continue;
+    }
+    counter++;
+    }while(counter<5);
+    return 0;
+}
