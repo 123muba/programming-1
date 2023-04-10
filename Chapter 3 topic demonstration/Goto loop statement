@@ -1,0 +1,18 @@
+#include <iostream>  
+using namespace std;  
+int main()  
+{  
+ exam:    
+     cout<<"Enter your mark:\n";    
+   int mark;  
+  cin>>mark;  
+if (mark < 50){    
+ cout<<"You are not passed the exam!\n";
+              goto exam;    
+}    
+ else    
+{    
+ cout<<"you are passed the exam!";     
+ } 
+
+}
